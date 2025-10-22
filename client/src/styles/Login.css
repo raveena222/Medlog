@@ -1,0 +1,134 @@
+.Login{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #E9F9FF;
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url('Login.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-card{
+    border-radius: 25px;
+    padding: 2vw;
+    width: 35vw;
+    min-height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8vw;
+}
+.login-card ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.login-card li{
+    list-style: none;
+    padding: 1vw;
+    background-color:#4274EA;
+    margin: 0 1vw 0 1vw;
+    border: #4274EA 1px solid;
+    border-radius: 20px;
+    color: white;
+}
+.login-card li:hover{
+    background-color: #E1F7FF;
+    color: #4274EA;
+}
+#choose{
+    margin: 2vw 0 2vw 0;
+    padding: 1vw;
+    border-radius: 5px;
+    background-color: #E1F7FF;
+    text-align: center;
+    color: #4274EA;
+}
+.cross{
+    display: flex;
+    justify-content: right;
+}
+.cross img{
+    width: 20px;
+}
+.cross img:hover{
+    cursor: pointer;
+}
+.login-card input{
+    margin: 1vw 0 1vw 0;
+    padding: 1vw;
+    border: black 1px solid;
+    border-radius: 5px;
+}
+.login-card button{
+    margin: 1vw 0 1vw 0;
+    padding: 1vw;
+    border: #4274EA 1px solid;
+    border-radius: 20px;
+    background-color:#4274EA;
+    color: white
+}
+.login-card button:hover{
+    cursor: pointer;
+    background-color: #E1F7FF;
+    color: #4274EA;
+    transition: 0.8;
+}
+#message{
+    text-align: center;
+    margin:0;
+    font-size: 80%;
+}
+.or{
+    display: flex;
+    justify-content: left;
+}
+.or p{
+    margin: 0;
+}
+.or hr{
+    width: 40%;
+    height: 1%;
+}
+.google{
+    display: flex;
+    justify-content: center;
+    margin: 2vw 0 2vw 0;
+    padding: 0.8vw;
+    border: #4274EA 1px solid;
+    border-radius: 20px;
+    background-color:#4274EA;
+    color: white
+}
+.google:hover{
+    cursor: pointer;
+    background-color: #E1F7FF;
+    color: #4274EA;
+    transition: 0.8;
+}
+.google img{
+    width: 20px;
+    margin: 0 1vw 0 1vw;
+}
+.google p{
+    margin: 0;
+    font-weight:lighter;
+}
+@media only screen and (max-width: 700px) {
+    .login-card{
+        width: 70%;
+        padding: 5vw;
+    }
+    .google{
+        margin: 3vw 0 3vw 0;
+    }
+    #message{
+        margin: 2vw 0 2vw 0;
+    }
+    .login-card li{
+        border-radius: 10px;
+    }
+}
